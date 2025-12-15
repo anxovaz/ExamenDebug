@@ -39,6 +39,7 @@ Se mostrará una que `n = 10` antes de que se ejecute la línea `serie = [0, 1]`
 ### Respuesta
 
 Utilizo `Step Into` para entrar dentro de la función, la variable `aux` al momento de entrar en el `return` tiene el valor `1'.
+El nombre de la herramienta es `Debug Windows`
 
 ![ejercicio2-1](./images/apartado2/ejercicio1.png)
 
@@ -53,6 +54,10 @@ Si estoy dentro de la función `calcular siguiente` y quiero salir uso `Step Out
 
 3. ¿Qué diferencia fundamental existe entre usar *Step Over* y *Step Into* en la línea `siguiente_numero = calcular_siguiente(serie)`?
 
+### Respuesta
+
+`Step Over` no entraría dentro de la función y la ejecutaría automáticamente sin interrupciones mientras que `Step Into` entraría dentro de la función y detendría la ejecución línea por línea.
+
 ---
 
 ### Apartado 3
@@ -63,5 +68,13 @@ Si estoy dentro de la función `calcular siguiente` y quiero salir uso `Step Out
 **Pregunta**
 
 1. Cuando el *Breakpoint Condicional* se activa por **primera vez** (la primera vez que `siguiente_numero` es mayor que 20000), ¿qué longitud tiene `serie`?
+
+### Respuesta
+
+Agrego un breakpoint condicional.
+
+![breakpoint-cond](./images/apartado3/ejercicio1-1.png)
+
+
 
 ---
