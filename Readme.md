@@ -36,8 +36,21 @@ Se mostrará una que `n = 10` antes de que se ejecute la línea `serie = [0, 1]`
 1. Justo cuando el debugger se detiene dentro de la función `calcular_siguiente` por **primera vez**, ¿cuál es el valor que tiene la variable local `aux` *después* de que se ejecute la línea `aux = serie[-1] + serie[-2]`?
 **(Indica el valor numérico exacto de la variable `aux` en ese momento y el nombre de la herramienta de *debugging* que utilizaste para entrar en la función).**
 
+### Respuesta
+
+Utilizo `Step Into` para entrar dentro de la función, la variable `aux` al momento de entrar en el `return` tiene el valor `1'.
+
+![ejercicio2-1](./images/apartado2/ejercicio1.png)
 
 2. Si estuvieras dentro de la función `calcular_siguiente` y quisieras salir rápidamente sin ejecutar el resto de las líneas, volviendo al punto de llamada en `funcion_bucle`, ¿qué función del debugger deberías usar?
+
+### Respuesta
+
+Si estoy dentro de la función `calcular siguiente` y quiero salir uso `Step Out` (`Mayús + F8`) para salir de ella.
+
+![ejercicio2-1](./images/apartado2/ejercicio2.png)
+
+
 3. ¿Qué diferencia fundamental existe entre usar *Step Over* y *Step Into* en la línea `siguiente_numero = calcular_siguiente(serie)`?
 
 ---
